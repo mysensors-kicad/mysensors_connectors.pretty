@@ -1,4 +1,4 @@
-(module keystone_3009 (layer F.Cu)
+(module keystone_3009-kcswalter (layer F.Cu) (tedit 0)
   (descr "Keystone type 3009 coin cell retainer")
   (fp_text reference BAT*** (at 0 -14.1) (layer F.SilkS)
     (effects (font (thickness 0.3048)))
@@ -32,7 +32,7 @@
   (pad 1 thru_hole circle (at -12.7 0) (size 3 3) (drill 1.9) (layers *.Cu *.Mask F.SilkS))
   (pad 1 thru_hole circle (at 12.7 0) (size 3 3) (drill 1.9) (layers *.Cu *.Mask F.SilkS))
   (pad 2 smd rect (at 0 0) (size 8 8) (layers F.Cu F.Paste F.Mask))
-  (model mysensors.3dshapes/w.lain.3dshapes/battery_holders/keystone_3009.wrl
+  (model ${MYSLOCAL}/mysensors.3dshapes/w.lain.3dshapes/battery_holders/keystone_3009.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
